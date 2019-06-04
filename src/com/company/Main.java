@@ -16,13 +16,12 @@ public class Main {
         List<String> lines = Files.readAllLines(Paths.get("input.txt"), Charset.defaultCharset());
         // Importing required data from the file in the directory of the projects.
 
-        int a, b, c, d, e;
-        a = Integer.parseInt(lines.get(0));
-        b = Integer.parseInt(lines.get(1));
-        c = Integer.parseInt(lines.get(2));
-        d = Integer.parseInt(lines.get(3));
-        e = Integer.parseInt(lines.get(4));
-        // Creating massive of the rows with reading all lines with the digets.
+        int a = Integer.parseInt(lines.get(0)), b = Integer.parseInt(lines.get(1)), c = Integer.parseInt(lines.get(2)), d = Integer.parseInt(lines.get(3)), e = Integer.parseInt(lines.get(4));;
+        //Initializing variables for each line.
+
+
+        //Defining all variables with the lines from the file
+
 
         int x, y, z, zx;
         x = a + b;
